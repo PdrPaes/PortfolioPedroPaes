@@ -8,5 +8,5 @@ O controle das tarefas desse projeto será realizado via GitHub
 
 :zap: nova funcionalidade ///
 :arrows_clockwise: atualização ///
-:shipit: correção de bug ///
+:zap: correção de bug ///
 :rocket: release ///
