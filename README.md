@@ -2,11 +2,11 @@
  Combinando técnicas de HTML, CSS, JS e PHP para criar um portfólio digital em formato de página Web
 
 ## Tarefas
-O controle das tarefas desse projeto será realizado no GitHub
+O controle das tarefas desse projeto será realizado via GitHub
 
 ## Icones
 
-:zap: nova funcionalidade
-:rocket: atualização
-:beetle: correção de bug
-:cloud: release
+:zap: nova funcionalidade ///
+:arrows_clockwise: atualização ///
+:shipit: correção de bug ///
+:rocket: release ///
