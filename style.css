@@ -421,15 +421,25 @@ header{
     width: 100%;
     text-align: center;
     font-family: var(--font-primary);
-    color: #272727;
+    color: var(--corPrimaria);
     font-size: 3rem;
-    font-weight: lighter;
 }
 .sessao-contato form {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.sessao-contato button{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+}
+.sessao-contato button:hover{
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    color: var(--corSecundaria);
 }
 .input-group {
     position: relative;
@@ -443,17 +453,18 @@ header{
     border-bottom: 2px dashed #636363;
     height: 3rem;
     outline: none;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }  
 .input-group textarea {
     padding-top: 1rem;
     max-width: 25rem;
-    max-height: 3rem;
+    max-height: 2rem;
+    line-height: 100%;
 } 
 .field-label {
     position: absolute;
-    left: 0;
-    top: 2rem;
+    right: 0;
+    //top: 2rem;
     font-size: 1rem;
     font-family: var(--font-secudary);
     text-transform: uppercase;
