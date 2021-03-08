@@ -183,6 +183,7 @@ header{
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 80;
 }
 .show-menu .sidebar{
     right: 0;
