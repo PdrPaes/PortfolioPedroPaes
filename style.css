@@ -363,14 +363,20 @@ header{
     font-family: var(--font-secudary);
     font-weight: bolder;
     color: var(--corTerciaria);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+}
+.card-info h5{
+    font-family: var(--font-secudary);
+    font-weight: lighter;
+    color: var(--corTerciaria);
+    margin-bottom: 1rem;
 }
 .card-info p{
     font-family: var(--font-secudary);
     color: var(--corTerciaria);
     font-weight: 400;
     width: 80%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .btn {
     background: #232526;  /* fallback for old browsers */
