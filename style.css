@@ -13,8 +13,9 @@
     --font-secudary: "Josefin Slab", serif;
     --font-action: "Muli", serif;
     --corPrimaria: #5f6163;
-    --corSecundaria: #b90004;
+    --corSecundaria: #17181b;
     --corTerciaria: #e5e5e5;
+    --corQuartenaria: #9b111e;
 }
 header{
     width: 100%;
@@ -22,7 +23,7 @@ header{
     overflow: hidden;
     position: relative;
 }
-.iconeMenu{
+.iconeMenu{ 
    /* background-color: red; */
     width: 2rem;
     height: 2rem;
@@ -34,6 +35,7 @@ header{
     flex-direction: column;
     justify-content: space-evenly; 
     cursor: pointer;
+    transition: all 1s;   
 }
 .iconeMenu i:hover{
     color: var(--corSecundaria);;
@@ -50,6 +52,7 @@ header{
     color: var(--corPrimaria);
     font-family: var(--font-action);
     opacity: 0;
+    transition: all 1s;
 }
 .iconeMenu span::before{
     content: "";
@@ -65,6 +68,8 @@ header{
 }
 .show-menu .iconeMenu{
     right: 16rem;
+    transition: all 900ms;
+    transition-delay: 100ms;
 }
 .line{
     width: 100%;
@@ -87,13 +92,13 @@ header{
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1);
 }
 .img-wrapper img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0,8;
     animation: zoom 25s;
 }
 @keyframes zoom{
@@ -205,7 +210,7 @@ header{
     transition: color 1s;
 }
 .menu-link:hover{
-    color: var(--corSecundaria);
+    color: var(--corQuartenaria);
 }
 .social-media{
     position: absolute;
@@ -227,7 +232,7 @@ header{
     transition: background-color 1s;
 }
 .social-media i:hover{
-    background: var(--corSecundaria);
+    background: var(--corQuartenaria);
 }
 .conhecimentos{
     background-color:#e5e5e5;
@@ -269,8 +274,10 @@ header{
 .sessao-header h1{
     font-family: var(--font-primary);
     font-size: 3rem;
+    line-height: 60%;
+    margin-top: 1.5rem;
     color: var(--corPrimaria);
-    border-bottom: solid 3px var(--corSecundaria);
+    border-bottom: solid 3px var(--corQuartenaria);
     margin-bottom: 1.5rem;
 }
 .conhecimento-header{
@@ -350,7 +357,7 @@ header{
     line-height: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 500;
-    color: var(--corSecundaria);
+    color: var(--corQuartenaria);
 }
 .card-info h3{
     font-family: var(--font-secudary);
@@ -492,7 +499,7 @@ footer{
     font-size: 1.2rem;
 }
   
-.social-list a{
+.social-list a{ 
     margin: 0 2rem;
     color: #a7a7a7;
     font-size: 1.3rem;
