@@ -49,7 +49,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--corPrimaria);
+    color: var(--corTerciaria);
     font-family: var(--font-action);
     opacity: 0;
     transition: all 1s;
