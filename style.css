@@ -464,7 +464,7 @@ header{
 .field-label {
     position: absolute;
     right: 0;
-    //top: 2rem;
+    top: 2rem;
     font-size: 1rem;
     font-family: var(--font-secudary);
     text-transform: uppercase;
